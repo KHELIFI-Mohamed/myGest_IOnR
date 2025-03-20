@@ -15,7 +15,7 @@ Structure du projet
 
    - TestIP : Permet de tester la validité d'une adresse IP et d'effectuer un test de ping pour vérifier sa connectivité.
    - TestTCP : Permet de tester si un port spécifique sur une adresse IP est ouvert ou non.
-   - Générer un fichier .txt depuis la BDD : Permet de générer un fichier `.txt` à partir des données présentes dans la base de données.
+   - Générer un fichier .txt depuis la BDD : Permet de générer un fichier .txt à partir des données présentes dans la base de données.
    - Consulter les IP actives : Teste les adresses IP des machines renseignées dans la BDD et affiche les machines actives en vert et les machines inactives en rouge.
 
 3. Install
@@ -59,16 +59,16 @@ Il vérifie d'abord si l'adresse IP saisie est valide, puis envoie un ping à l'
 (https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testTCP.sh)
 
 Ce script permet de tester si un port spécifique sur une adresse IP est ouvert ou fermé.  
-L'utilisateur entre l'adresse IP et le numéro de port, et le script effectue un scan avec **nmap** pour vérifier l'état du port.
+L'utilisateur entre l'adresse IP et le numéro de port, et le script effectue un scan avec nmap pour vérifier l'état du port.
 
 5.TestInternet
 (https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testinternet.sh)
 
-Ce script teste si l'ordinateur est connecté à Internet en envoyant des pings à **8.8.8.8** (serveur DNS de Google).  
+Ce script teste si l'ordinateur est connecté à Internet en envoyant des pings à 8.8.8.8 (serveur DNS de Google).  
 Il affiche "Internet est disponible" si le ping réussit, ou "Pas de connexion Internet" en cas d'échec.
 
 6.Mot de Passe
 (https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/passwd.sh)
 
 Ce script génère un mot de passe aléatoire sécurisé.  
-Il utilise des caractères générés de manière aléatoire via `/dev/urandom` et filtre pour ne conserver que les lettres, chiffres et symboles spéciaux.
+Il utilise des caractères générés de manière aléatoire via /dev/urandom et filtre pour ne conserver que les lettres, chiffres et symboles spéciaux.
