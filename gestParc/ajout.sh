@@ -9,7 +9,8 @@ read -p "Le type (1=machine;2=switch;3=serveur) : " type
 echo "Vérification des éléments entrés"
 
 
-if [[ "$adMac" =~ ^([0-9A-Fa-f]{2}[:.-]){5}[0-9A-Fa-f]{2}$ ]]; then
+if [[ "$adMac" =~ ^([0-9A-Fa-f]{2}[:.-]){5}[0-9A-Fa-f]{2}$ ]]
+then
     echo "Adresse MAC valide"
 else
     echo "Adresse MAC invalide, veuillez réessayer !!!"
@@ -17,14 +18,16 @@ else
 fi
 
 
-if [[ "$adIp" =~ ^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])$ ]]; then
+if [[ "$adIp" =~ ^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])$ ]
+then
     echo "L'adresse IP est bonne"
 else
     echo "Ce n'est pas une adresse IP, veuillez réessayer !!!"
     exit
 fi
 
-if [[ "$CIDR" =~ ^([12]?[0-9]|3[0-2])$ ]]; then
+if [[ "$CIDR" =~ ^([12]?[0-9]|3[0-2])$ ]]
+then
     echo "CIDR est bon"
 else
     echo "CIDR n'est pas bon, veuillez réessayer !!!"
