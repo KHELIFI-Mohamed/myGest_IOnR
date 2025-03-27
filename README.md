@@ -38,7 +38,7 @@ Ce script Bash permet à l'utilisateur de consulter différents types d'équipem
 Le script exécute une requête MySQL en fonction du choix de l'utilisateur et affiche les équipements correspondants. En cas d'entrée invalide, un message d'erreur s'affiche.
 
  2. Ajouter
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/gestParc/ajout.sh)
+[ajouter](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/gestParc/ajout.sh)
 
 Ce script permet à l'utilisateur d'ajouter des équipements réseau à la base de données. Il guide l'utilisateur pour saisir les informations suivantes :
 - Nom de l'équipement.
@@ -50,25 +50,25 @@ Ce script permet à l'utilisateur d'ajouter des équipements réseau à la base 
 Le script vérifie la validité des données saisies avant de les insérer dans la base de données.
 
  3. TestIP  
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testIP.sh)
+[TestIP](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testIP.sh)
 
 Ce script permet de tester la validité d'une adresse IP et d'effectuer un test de connectivité via un ping.  
 Il vérifie d'abord si l'adresse IP saisie est valide, puis envoie un ping à l'adresse pour tester la connectivité.
 
 4.TestTCP 
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testTCP.sh)
+[TestTCP](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testTCP.sh)
 
 Ce script permet de tester si un port spécifique sur une adresse IP est ouvert ou fermé.  
 L'utilisateur entre l'adresse IP et le numéro de port, et le script effectue un scan avec nmap pour vérifier l'état du port.
 
 5.TestInternet
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testinternet.sh)
+[TestInternet](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testinternet.sh)
 
 Ce script teste si l'ordinateur est connecté à Internet en envoyant des pings à 8.8.8.8 (serveur DNS de Google).  
 Il affiche "Internet est disponible" si le ping réussit, ou "Pas de connexion Internet" en cas d'échec.
 
 6.Mot de Passe
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/passwd.sh)
+[Mot de Passe](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/passwd.sh)
 
 Ce script génère un mot de passe aléatoire sécurisé.  
 Il utilise des caractères générés de manière aléatoire via /dev/urandom et filtre pour ne conserver que les lettres, chiffres et symboles spéciaux.
