@@ -27,7 +27,7 @@ Fonctionnalités supplémentaires
 - **Génération de mots de passe sécurisés** : Un autre script génère des mots de passe aléatoires et sécurisés, pratique pour la création de nouvelles sessions.
 
  1.Consulter 
-(https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/gestParc/affiche.sh)
+[consulter](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/gestParc/affiche.sh)
 
 Ce script Bash permet à l'utilisateur de consulter différents types d'équipements dans la base de données. Il offre les options suivantes :
 - Voir l'ensemble des équipements.
