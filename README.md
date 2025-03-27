@@ -5,16 +5,16 @@ Structure du projet
 1. Gestion du Parc Informatique  
    Cette section permet de gérer les équipements présents dans le parc informatique à l'aide d'une base de données. Elle permet de consulter, ajouter, modifier et supprimer des éléments dans la base de données, facilitant ainsi la gestion des équipements par les techniciens.
 
-   - Consulter : Permet à l'utilisateur de consulter les données présentes dans la base de données de manière rapide et optimisée.
-   - Ajouter : Permet d'ajouter de nouveaux équipements dans la base de données.
+   - **Consulter** : Permet à l'utilisateur de consulter les données présentes dans la base de données de manière rapide et optimisée.
+   - **Ajouter** : Permet d'ajouter de nouveaux équipements dans la base de données.
    - Modifier : Permet de modifier les données des équipements existants.
    - Supprimer : Permet de supprimer les équipements de la base de données.
 
 2. Outils Réseaux  
    Cette section comprend plusieurs outils pour effectuer des tests et des vérifications réseau.
 
-   - TestIP : Permet de tester la validité d'une adresse IP et d'effectuer un test de ping pour vérifier sa connectivité.
-   - TestTCP : Permet de tester si un port spécifique sur une adresse IP est ouvert ou non.
+   - **TestIP** : Permet de tester la validité d'une adresse IP et d'effectuer un test de ping pour vérifier sa connectivité.
+   - **TestTCP** : Permet de tester si un port spécifique sur une adresse IP est ouvert ou non.
    - Générer un fichier .txt depuis la BDD : Permet de générer un fichier .txt à partir des données présentes dans la base de données.
    - Consulter les IP actives : Teste les adresses IP des machines renseignées dans la BDD et affiche les machines actives en vert et les machines inactives en rouge.
 
@@ -23,8 +23,8 @@ Structure du projet
 
 Fonctionnalités supplémentaires
 
-- Test de connectivité WAN: Un script Bash permettant de tester la connectivité vers le WAN.
-- Génération de mots de passe sécurisés : Un autre script génère des mots de passe aléatoires et sécurisés, pratique pour la création de nouvelles sessions.
+- **Test de connectivité WAN**: Un script Bash permettant de tester la connectivité vers le WAN.
+- **Génération de mots de passe sécurisés** : Un autre script génère des mots de passe aléatoires et sécurisés, pratique pour la création de nouvelles sessions.
 
  1.Consulter 
 (https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/gestParc/affiche.sh)
