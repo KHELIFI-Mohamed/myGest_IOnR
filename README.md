@@ -49,8 +49,7 @@ Ce script permet à l'utilisateur d'ajouter des équipements réseau à la base 
 
 Le script vérifie la validité des données saisies avant de les insérer dans la base de données.
 
- 3. TestIP  
-[TestIP](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testIP.sh)
+ 3. TestIP  [TestIP](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/testIP.sh)
 
 Ce script permet de tester la validité d'une adresse IP et d'effectuer un test de connectivité via un ping.  
 Il vérifie d'abord si l'adresse IP saisie est valide, puis envoie un ping à l'adresse pour tester la connectivité.
