@@ -68,9 +68,9 @@ Il affiche "Internet est disponible" si le ping réussit, ou "Pas de connexion I
 
 6.Mot de Passe
 [Mot de Passe](https://github.com/KHELIFI-Mohamed/myGest_IOnR/blob/main/outilsRx/passwd.sh)
-[mygest.mp4.tar.gz](https://github.com/user-attachments/files/19503624/mygest.mp4.tar.gz)
 
 Ce script génère un mot de passe aléatoire sécurisé.  
 Il utilise des caractères générés de manière aléatoire via /dev/urandom et filtre pour ne conserver que les lettres, chiffres et symboles spéciaux.
 
+[mygest.mp4.tar.gz](https://github.com/user-attachments/files/19503624/mygest.mp4.tar.gz)
 **PS**:Si vous préférez regarder une vidéo , allez sur le fichier mygest.mp4 et cliquer sur view raw pour la télécharger et la regarder.
